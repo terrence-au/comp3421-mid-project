@@ -151,7 +151,7 @@ tr:nth-child(even) {
 .logo-div {
   display: flex;
   justify-content: space-between;
-  width: 20%;
+  width: 10%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -185,6 +185,10 @@ tr:nth-child(even) {
   margin-right: auto;
 }
 
+.phone-skill {
+  display: none;
+}
+
 /*Phone View*/
 @media screen and (max-width: 1024px) {
   .navtext {
@@ -203,6 +207,9 @@ tr:nth-child(even) {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+  }
+  .phone-skill {
+    display: none;
   }
 }
 
@@ -239,6 +246,61 @@ tr:nth-child(even) {
     display: block;
   }
 
+  .intro-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
+
+  .introduction {
+    text-align: center;
+    display: table-footer-group;
+  }
+
+  .intro-photo {
+    text-align: center;
+    display: table-header-group;
+  }
+
+  .intro-photo img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .introduction h1 {
+    font-size: 40px;
+  }
+
+  .introduction p {
+    font-size: 18px;
+    color: #747474;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 1px;
+  }
+
+  .skill {
+    display: none;
+  }
+  .phone-skill {
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+  }
+
+  .phone-skill h1 {
+    font-size: 60px;
+  }
+
+  .phone-skill h2 {
+    font-size: 40px;
+  }
+
+  .phone-skill p {
+    font-size: 20px;
+  }
+
   /*Bottom Nav*/
   .copyright {
     font-size: small;
@@ -271,7 +333,6 @@ tr:nth-child(even) {
     margin-right: auto;
   }
 }
-
 .nav-active {
   transform: translateX(0%);
 }
