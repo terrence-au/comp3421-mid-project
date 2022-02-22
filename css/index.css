@@ -323,6 +323,11 @@ a {
     overflow-x: hidden;
     position: relative;
   }
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
+  }
   /*Top Navbar*/
   .logo {
     display: none;
